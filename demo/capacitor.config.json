@@ -1,0 +1,6 @@
+{
+  "appId": "com.github.triniwiz.cap.notifications.demo",
+  "appName": "CapNotifications",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

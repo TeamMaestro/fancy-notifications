@@ -1,0 +1,28 @@
+PODS:
+  - Capacitor (1.0.0-beta.10):
+    - CapacitorCordova (= 1.0.0-beta.10)
+  - CapacitorCordova (1.0.0-beta.10)
+  - FancyNotifications (0.0.1):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - FancyNotifications (from `/Users/triniwiz/Documents/oss/capacitor-local-notifications/demo/node_modules/fancy-notifications`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  FancyNotifications:
+    :path: "/Users/triniwiz/Documents/oss/capacitor-local-notifications/demo/node_modules/fancy-notifications"
+
+SPEC CHECKSUMS:
+  Capacitor: 9aa60986d00166b45b3216daf90f49f8df6593fa
+  CapacitorCordova: aab520b872cabe0d9f30a03dc385c5dce8d2c82b
+  FancyNotifications: 099b75b5bde7c75e4b28ac34d4cbfe1f615caae3
+
+PODFILE CHECKSUM: 32ad7aa1e071577c713b694ca18aa229eab29502
+
+COCOAPODS: 1.5.3

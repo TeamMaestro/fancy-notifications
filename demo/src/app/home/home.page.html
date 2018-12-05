@@ -1,0 +1,13 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			Ionic Blank
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-input placeholder="Badge Count" #count type="number"></ion-input>
+	<ion-button (click)="setCount(count.value)">Set Count</ion-button>
+	<ion-button (click)="clearCount()">Clear Count</ion-button>
+</ion-content>

@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+/src/dist
+src/ios/Plugin/Pods/
+demo/android/app/src/main/assets
+.idea
+demo/www
+demo/android/app/build
+src/android/
