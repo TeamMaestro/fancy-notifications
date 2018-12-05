@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |s|
     s.name = 'FancyNotifications'
-    s.version = '0.0.1'
+    s.version = '0.0.2'
     s.summary = 'Local notifications for capacitor'
     s.license = 'MIT'
     s.homepage = 'https://github.com/triniwiz/fancy-notifications.git'
