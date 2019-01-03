@@ -6,4 +6,5 @@ demo/android/app/src/main/assets
 .idea
 demo/www
 demo/android/app/build
-src/android/
+src/android/fancy-notifications/build
+package-lock.json
