@@ -17,11 +17,11 @@ const {FancyNotifications} = Plugins;
 async function updateBadgeCount() {
   const check = await FancyNotifications.hasPermission();
   if(check.value){
-  FancyNotifications.setBadgeCount(2);
+  FancyNotifications.setBadgeCount({ count: 2 });
   }else{
   const request = await FancyNotifications.requestPermission();
   if(request.value){
-      FancyNotifications.setBadgeCount(2);
+      FancyNotifications.setBadgeCount({ count: 2 });
   }else{
       // User failed to grant permission show some dialog
   }
