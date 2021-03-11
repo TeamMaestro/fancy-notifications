@@ -11,20 +11,19 @@
 
 
 ```typescript
-import 'fancy-notifications';
 import { Plugins } from '@capacitor/core';
-const {FancyNotifications} = Plugins;
+const { FancyNotifications } = Plugins;
 async function updateBadgeCount() {
   const check = await FancyNotifications.hasPermission();
-  if(check.value){
-  FancyNotifications.setBadgeCount(2);
-  }else{
-  const request = await FancyNotifications.requestPermission();
-  if(request.value){
-      FancyNotifications.setBadgeCount(2);
-  }else{
+  if (check.value) {
+    FancyNotifications.setBadgeCount({ count: 2 });
+  } else {
+    const request = await FancyNotifications.requestPermission();
+    if(request.value) {
+      FancyNotifications.setBadgeCount({ count: 2 });
+    } else {
       // User failed to grant permission show some dialog
-  }
+    }
   }
 }
 
